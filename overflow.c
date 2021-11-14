@@ -3,6 +3,8 @@
 
 
 int main(void) {
+    
+    // the variables below are defined in this function therefore they're put into the stack. The Stack of memory just holds local variables(defined/declared variables in a function)
     char bf2[10] = "Hello";
     char bf1[10] = "";
 
